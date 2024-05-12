@@ -1,0 +1,28 @@
+{
+    "name": "bird-language",
+    "displayName": "Bird Language Support",
+    "description": "Syntax highlighting for Bird language",
+    "version": "0.0.1",
+    "publisher": "BirdLanguageSupport",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Rbtsv2/bird-language.git"
+      },
+    "engines": {
+        "vscode": "^1.31.0"
+    },
+    "categories": ["Programming Languages"],
+    "contributes": {
+        "languages": [{
+            "id": "bird",
+            "aliases": ["Bird", "bird"],
+            "extensions": [".bird"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bird",
+            "scopeName": "source.bird",
+            "path": "./syntaxes/bird.tmLanguage.json"
+        }]
+    }
+}
