@@ -20,3 +20,11 @@ Alternativement, vous pouvez installer l'extension manuellement en téléchargea
 
 ```bash
 code --install-extension bird-language-0.0.1.vsix
+
+```
+## developper
+
+```bash
+vsce login BirdLanguageSupport
+vsce publish
+```
