@@ -13,6 +13,13 @@
     },
     "categories": ["Programming Languages"],
     "contributes": {
+        "themes": [
+            {
+                "label": "Bird Color Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/bird.theme.json"
+            }
+        ],
         "languages": [{
             "id": "bird",
             "aliases": ["Bird", "bird"],
@@ -22,7 +29,7 @@
         "grammars": [{
             "language": "bird",
             "scopeName": "source.bird",
-            "path": "./syntaxes/bird.tmLanguage.json"
+            "path": "./syntaxes/bird.language.json"
         }]
     }
 }

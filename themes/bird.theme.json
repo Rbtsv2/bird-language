@@ -1,0 +1,55 @@
+{
+    "name": "Bird Color Theme",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#1F1F1F",
+        "editor.foreground": "#D4D4D4"
+    },
+    "tokenColors": [
+
+        {
+            "scope": "variable.operand.bird",
+            "settings": {
+                "foreground": "#9CDCFE"
+            }
+        },
+        {
+            "scope": "constant.language.bird",
+            "settings": {
+                "foreground": "#569CD6"
+            }
+        },
+        {
+            "scope": "entity.name.function.bird",
+            "settings": {
+                "foreground": "#DCDCAA"
+            }
+        },
+        {
+            "scope": "keyword.control.bird",
+            "settings": {
+                "foreground": "#C586C0"
+            }
+        },
+        {
+            "scope": [
+                "string.quoted.double.bird",
+                "string.quoted.single.bird"
+            ],
+            "settings": {
+                "foreground": "#CE9178"
+            }
+        },
+        {
+            "scope": [
+                "punctuation.parenthesis.bird",
+                "punctuation.bracket.bird",
+                "punctuation.brace.bird"
+            ],
+            "settings": {
+                "foreground": "#DCDCAA"
+            }
+        }
+    ]
+    
+}
