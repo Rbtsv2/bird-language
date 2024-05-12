@@ -2,7 +2,7 @@
     "name": "bird-language",
     "displayName": "Bird Language Support",
     "description": "Syntax highlighting for Bird language",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "BirdLanguageSupport",
     "repository": {
         "type": "git",
